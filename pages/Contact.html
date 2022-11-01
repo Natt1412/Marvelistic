@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./images/favicon-32x32.png"
+  />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet">
+    <script
+    src="https://kit.fontawesome.com/3932b7586d.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="bg-2">
+            <h1 class="t-stroke-shadow">Marvelistic</h1>
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="History.html">History</a></li>
+                <li><a href="Films.html">Films</a></li>
+                <li><a href="Ustedes.html">Ustedes</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <img class="Iron-man" src="../img/icons8-iron-man-50.png" alt="iron_man">
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <br>
+        <h2>Hey there, Marvel Fan! ¡Tu opinión nos interesa!</h2>
+        <p class="texto1">En esta comunidad nos gusta compartir nuestras historias relacionadas con Marvel. Puede ser desde lo que sentiste leyendo tu primer comic, lo que descubriste viendo por millonesiva vez la misma pelicula, las teorias del MCU que no te dejan consiliar el sueño, etc. Completa el siguiente formulario con lo que nos quieras contar y nosotros lo publicaremos en la sección de "Ustedes" para compartirlo ¡Esperamos sus historias!</p>
+        <br>
+    </section>
+
+    <form action="">
+        <fieldset class="form-box">
+            <legend><h3>Formulario</h3></legend>
+            <div class="texto2">
+                <label for="Apodo">Apodo:</label> 
+                <input type="text" id="apodo" name="apodo" required>
+                <label for="email">e-Mail:</label>
+                <input type="email" name="email">
+            </div>
+            <div class="texto2">
+                <label for="tex">¿Qué te gustaría contarnos?:</label>
+                <br> 
+                <input type="text" id="tex" name="tex" required>
+            </div>
+            <div class="enviar">
+                <label for="adjuntar">Adjuntar archivo:</label>
+                <input type="file" name="adjuntar">
+            </div>
+            
+        </fieldset>
+        <br>
+        <fieldset class="form-box">
+            <div class="enviar">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </fieldset>
+        <br><br>
+    </form>
+
+    <footer class="container-footer">
+        <div>
+            <div class="datos">
+                <p><b><i>Lo maravilloso tiene un lugar</i></b></p>
+            </div>
+            <div class="datos">
+                <p id="disclaimer"><i>Disclaimer: No somos autores de ningun tipo de información, imagen, video, artículo o similares presentes y utilizados en esta página. Todos sus derechos estan reservados para sus respectivos autores intelectuales. </i></p>
+            </div>
+        </div>
+        
+        <nav id="iconos_redes">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+    </footer>
+</body>
+</html>

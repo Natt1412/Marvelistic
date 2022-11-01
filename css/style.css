@@ -1,0 +1,293 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(28, 38, 44);
+    font-family: 'Marvel', sans-serif;
+    color: azure;
+}
+
+header {
+    background-color: rgb(211, 16, 9);
+    border: solid rgb(245, 150, 8);
+}
+
+#ban {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 2% 2% 2% 2%;
+}
+
+.banner1 {
+    width: 150px;
+}
+.banner2 {
+    width: 300px;
+}
+
+.linea {
+    display: inline-flex;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: solid black;
+    border-width: 0.4em;
+}
+
+.conteiner-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+} 
+
+.conteiner-article-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 3em 4em 3em 4em ;
+    background-color: rgb(46, 61, 73);
+    border: solid rgb(245, 150, 8);
+    border-radius: 30px;
+} 
+
+.conteiner-article-2 a{
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.conteiner-article-2 h3{
+    margin-top: 0.6em;
+}
+
+.conteiner-article3 {
+    display: inline-flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2em 5em 2em 5em ;
+} 
+
+.conteiner-article3 img {
+    width: 200px;
+    height: 300px;
+    margin-right: 2em;
+    border-radius: 30px;
+    border: solid rgb(245, 150, 8);
+    display: flex;
+}
+
+.conteiner-article-4 {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 1.5em;
+    background-color: rgb(46, 61, 73);
+    border: solid rgb(245, 150, 8);
+    border-radius: 30px;
+}
+
+.form-box {
+    display: block;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-color: #ca9f28;
+    border-radius: 20px;
+}
+
+.art {
+    width: 400px;
+    height: 250px;
+    margin-right: 2em;
+    border-radius: 30px;
+    border: solid rgb(245, 150, 8);
+}
+
+.fuente {
+    margin-left: 2em;
+}
+
+.enviar {
+    text-align: right;
+    margin-right: 2em;
+}
+
+.texto1 {
+    text-align: left;
+    margin: 2em;
+}
+
+.texto2 {
+    text-align: left;
+    margin: 2em;
+}
+
+legend {
+    margin-left: 2em;
+}
+
+h1 {
+    color: rgb(231, 48, 42);
+    font-size: 7em;
+    text-align: center;
+}
+
+.titulos {
+    color: rgb(231, 48, 42);
+    font-size: 4em;
+    text-align: center;
+    text-shadow: -3px 3px #0c0c0c;
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(245, 150, 8);
+    margin-left: 1em;
+    text-shadow: -3px 3px #0c0c0c;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: rgb(247, 196, 120);
+    text-shadow: -3px 3px #0c0c0c;
+}
+
+.titulo_peli {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.img_carrusel {
+    display: block;
+    width: 1400px;
+    margin: auto;
+    border-radius: 30px;
+    border: solid rgb(245, 150, 8);
+
+}
+
+.video {
+   
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: solid #f80d0d;
+    border-radius: 20px;
+    border-style: dashed;
+    background-color: #0c0c0c;
+
+}
+
+#navbar {
+    background: linear-gradient(to left, rgb(252, 0, 0), rgb(22, 21, 21));
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+    
+}
+
+
+#navbar li{
+    margin: 0.5em 0;
+    padding: .3em;
+    display: inline-block;
+    border: solid azure;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: azure;
+}
+
+#navbar a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: azure;
+    text-decoration: none;
+}
+a:visited {
+    color: rgba(71, 54, 224, 0.274);
+}
+
+footer {
+    background: linear-gradient(to left,rgb(252, 0, 0), rgb(22, 21, 21));
+    border: solid rgb(245, 150, 8);
+}
+
+#redes_sociales {
+
+        display: flex;
+        width: 400px;
+        max-width: 100%;
+        justify-content: space-around;
+        color: white; 
+        text-align: right;
+
+}
+
+#iconos_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+}
+
+#disclaimer {
+    font-size: 0.6em;
+    margin-top: 1em;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ebfbff;
+    padding: 1rem 0;
+    font-size: 1.5rem; 
+}
+.fab
+{
+    margin: 1em;
+}
+
+.bg-2{
+    
+    background: linear-gradient(to left, rgb(252, 0, 0), rgb(22, 21, 21));
+    text-align: center;
+    
+}
+    
+.t-stroke-shadow {
+
+    color: #ad0e1b;
+    text-shadow: -3px 3px #0c0c0c, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #ca9f28;
+}
+
+.Iron-man {
+    transition: all;
+}
+
+.Iron-man:hover {
+    transform: translateX(-415px);
+}
+
+
+
